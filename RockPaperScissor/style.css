@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#H1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#signs{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.myChoice{
+    padding: 20px;
+    margin: 20px;
+    font-size: 2.5rem;
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(4, 122, 211);
+    color: aliceblue;
+    font-weight: normal;
+}
+.myChoice:hover{
+    font-weight: bold;
+    background-color: rgba(4, 121, 211, 0.631);
+}
+
+.output{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#result{
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+}
+
+.Score{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
