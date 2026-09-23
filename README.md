@@ -8,9 +8,9 @@ All projects are integrated into a centralized dashboard menu located at the roo
 
 ## 🌐 Live Deployment
 
-> 🔗 **Live Demo:** `[Add Live Deployment Link Here]` <!-- Placeholder for deployment link -->
+> 🔗 **Live Demo:** [https://vanilla-js-projects-one.vercel.app/](https://vanilla-js-projects-one.vercel.app/)
 
-*All 7 projects are hosted together under the central hub interface above. Once deployed, each project can be launched directly from the main menu.*
+*All 7 projects are hosted together under the central hub interface above. Launch any project directly from the live menu.*
 
 ---
 
