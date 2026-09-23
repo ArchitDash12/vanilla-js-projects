@@ -1,20 +1,30 @@
 # Vanilla JavaScript Projects 🚀
 
-A curated collection of practical, interactive web applications built from scratch using pure **Vanilla JavaScript**, **HTML5**, and **CSS3**—without any external libraries or frameworks. This repository showcases core JavaScript fundamentals, DOM manipulation, asynchronous programming, and event-driven architecture.
+A curated collection of practical, interactive web applications built from scratch using pure **Vanilla JavaScript**, **HTML5**, and **CSS3**—without external libraries or frameworks. This repository showcases core JavaScript fundamentals, DOM manipulation, asynchronous programming, and event-driven architecture.
+
+All projects are integrated into a centralized dashboard menu located at the root [`index.html`](./index.html), allowing the entire collection to be deployed and explored from a single live URL.
+
+---
+
+## 🌐 Live Deployment
+
+> 🔗 **Live Demo:** `[Add Live Deployment Link Here]` <!-- Placeholder for deployment link -->
+
+*All 7 projects are hosted together under the central hub interface above. Once deployed, each project can be launched directly from the main menu.*
 
 ---
 
 ## 📋 Projects Overview
 
-| # | Project | Description | Key Concepts Learned | Live Demo |
+| # | Project | Description | Key Concepts Learned | Directory |
 |---|---------|-------------|----------------------|-----------|
-| 1 | [Calculator](./Calculator) | A responsive on-screen calculator that performs fundamental arithmetic operations and displays expressions in real-time. | DOM manipulation, expression evaluation with error handling (`try...catch`), and event binding. | [Live Demo](#) |
-| 2 | [Digital Clock](./Digital%20Clock) | A live digital clock that tracks and displays the user's current local time in 12-hour AM/PM format, updating every second. | `Date` object methods, recurring timers via `setInterval()`, and zero-padding with `padStart()`. | [Live Demo](#) |
-| 3 | [Image Slider](./Image%20Slider) | An interactive photo carousel offering smooth automatic transitions alongside manual previous and next navigation controls. | Array indexing, cycling boundaries, `DOMContentLoaded` lifecycle, and dynamic CSS class toggling (`classList`). | [Live Demo](#) |
-| 4 | [Quiz Game](./Quiz%20Game) | A dynamic multiple-choice quiz that tracks scores, shows visual feedback on selection, and displays an animated progress bar and final score evaluation. | State management, dynamic DOM creation (`createElement`), HTML5 `dataset` attributes, and asynchronous delays with `setTimeout()`. | [Live Demo](#) |
-| 5 | [Rock Paper Scissors](./RockPaperScissor) | A classic hand-game played against the computer featuring randomized AI moves, real-time scorekeeping, and color-coded match results. | Pseudo-random generation via `Math.random()`, DOM tree traversal (`firstElementChild`, `nextElementSibling`), and conditional scoring logic. | [Live Demo](#) |
-| 6 | [Stopwatch](./Stopwatch) | A high-precision stopwatch with Start, Stop, and Reset controls that accurately measures elapsed time down to centiseconds. | Millisecond timing with `Date.now()`, interval timer management (`setInterval` & `clearInterval`), and elapsed time calculation. | [Live Demo](#) |
-| 7 | [Weather App](./Weather%20App) | A real-time weather forecasting tool that queries the OpenWeatherMap API for user-specified cities to show temperature, humidity, conditions, and contextual emojis. | Asynchronous JavaScript (`async`/`await`), Fetch API, JSON parsing, API error handling, and conditional emoji rendering. | [Live Demo](#) |
+| 1 | [Calculator](./Calculator) | A responsive on-screen calculator that performs fundamental arithmetic operations and displays expressions in real-time. | DOM manipulation, expression evaluation with error handling (`try...catch`), and event binding. | [`./Calculator`](./Calculator) |
+| 2 | [Digital Clock](./Digital%20Clock) | A live digital clock that tracks and displays the user's current local time in 12-hour AM/PM format, updating every second. | `Date` object methods, recurring timers via `setInterval()`, and zero-padding with `padStart()`. | [`./Digital Clock`](./Digital%20Clock) |
+| 3 | [Image Slider](./Image%20Slider) | An interactive photo carousel offering smooth automatic transitions alongside manual previous and next navigation controls. | Array indexing, cycling boundaries, `DOMContentLoaded` lifecycle, and dynamic CSS class toggling (`classList`). | [`./Image Slider`](./Image%20Slider) |
+| 4 | [Quiz Game](./Quiz%20Game) | A dynamic multiple-choice quiz that tracks scores, shows visual feedback on selection, and displays an animated progress bar and final score evaluation. | State management, dynamic DOM creation (`createElement`), HTML5 `dataset` attributes, and asynchronous delays with `setTimeout()`. | [`./Quiz Game`](./Quiz%20Game) |
+| 5 | [Rock Paper Scissors](./RockPaperScissor) | A classic hand-game played against the computer featuring randomized AI moves, real-time scorekeeping, and color-coded match results. | Pseudo-random generation via `Math.random()`, DOM tree traversal (`firstElementChild`, `nextElementSibling`), and conditional scoring logic. | [`./RockPaperScissor`](./RockPaperScissor) |
+| 6 | [Stopwatch](./Stopwatch) | A high-precision stopwatch with Start, Stop, and Reset controls that accurately measures elapsed time down to centiseconds. | Millisecond timing with `Date.now()`, interval timer management (`setInterval` & `clearInterval`), and elapsed time calculation. | [`./Stopwatch`](./Stopwatch) |
+| 7 | [Weather App](./Weather%20App) | A real-time weather forecasting tool that queries the OpenWeatherMap API for user-specified cities to show temperature, humidity, conditions, and contextual emojis. | Asynchronous JavaScript (`async`/`await`), Fetch API, JSON parsing, API error handling, and conditional emoji rendering. | [`./Weather App`](./Weather%20App) |
 
 ---
 
@@ -26,8 +36,7 @@ A curated collection of practical, interactive web applications built from scrat
   - Querying and updating HTML input values via the DOM.
   - Parsing and calculating expressions using JavaScript functions.
   - Safe error handling using `try...catch` blocks to catch invalid mathematical syntax.
-- **Live Deployment:**
-  > 🔗 **Live Demo:** `[Add Live Link Here]` <!-- Placeholder for deployment link -->
+- **Directory:** [`./Calculator`](./Calculator)
 
 ---
 
@@ -38,8 +47,7 @@ A curated collection of practical, interactive web applications built from scrat
   - Implementing asynchronous intervals using `setInterval()` for second-by-second updates.
   - Formatting single-digit numbers into two-digit strings using `String.prototype.padStart()`.
   - Applying CSS backdrop filters and glassmorphism styling.
-- **Live Deployment:**
-  > 🔗 **Live Demo:** `[Add Live Link Here]` <!-- Placeholder for deployment link -->
+- **Directory:** [`./Digital Clock`](./Digital%20Clock)
 
 ---
 
@@ -50,8 +58,7 @@ A curated collection of practical, interactive web applications built from scrat
   - Managing slide indices and circular boundary logic for wrapping around slide ends.
   - Managing timing events with `setInterval()` and pausing/clearing them with `clearInterval()`.
   - Controlling visual transitions via class manipulation (`classList.add()` / `classList.remove()`).
-- **Live Deployment:**
-  > 🔗 **Live Demo:** `[Add Live Link Here]` <!-- Placeholder for deployment link -->
+- **Directory:** [`./Image Slider`](./Image%20Slider)
 
 ---
 
@@ -63,8 +70,7 @@ A curated collection of practical, interactive web applications built from scrat
   - Storing and reading custom button metadata with HTML5 `data-*` attributes (`dataset.correct`).
   - Managing application state across multiple screens (Start, Quiz, Results) using CSS visibility classes.
   - Orchestrating question pacing with `setTimeout()`.
-- **Live Deployment:**
-  > 🔗 **Live Demo:** `[Add Live Link Here]` <!-- Placeholder for deployment link -->
+- **Directory:** [`./Quiz Game`](./Quiz%20Game)
 
 ---
 
@@ -75,8 +81,7 @@ A curated collection of practical, interactive web applications built from scrat
   - Utilizing DOM relationship traversal properties (`firstElementChild`, `nextElementSibling`, `lastElementChild`).
   - Implementing game outcome logic using JavaScript `switch` statements and conditional ternary operators.
   - Dynamically altering inline CSS styles and text content based on win/loss/tie outcomes.
-- **Live Deployment:**
-  > 🔗 **Live Demo:** `[Add Live Link Here]` <!-- Placeholder for deployment link -->
+- **Directory:** [`./RockPaperScissor`](./RockPaperScissor)
 
 ---
 
@@ -87,8 +92,7 @@ A curated collection of practical, interactive web applications built from scrat
   - Precise interval updating with `setInterval()` and state toggling using boolean flags (`isRunning`).
   - Mathematical breakdown of milliseconds into hours, minutes, seconds, and centiseconds.
   - Formatting time strings cleanly with pad operations.
-- **Live Deployment:**
-  > 🔗 **Live Demo:** `[Add Live Link Here]` <!-- Placeholder for deployment link -->
+- **Directory:** [`./Stopwatch`](./Stopwatch)
 
 ---
 
@@ -100,14 +104,13 @@ A curated collection of practical, interactive web applications built from scrat
   - Converting temperature units (Kelvin to Celsius).
   - Robust client-side validation and HTTP error handling (`response.ok`).
   - Mapping numeric weather condition IDs to representative emoji icons using `switch(true)` pattern.
-- **Live Deployment:**
-  > 🔗 **Live Demo:** `[Add Live Link Here]` <!-- Placeholder for deployment link -->
+- **Directory:** [`./Weather App`](./Weather%20App)
 
 ---
 
 ## 🚀 Getting Started
 
-To explore or run any of these projects locally:
+To explore or run the project hub locally:
 
 1. **Clone the repository:**
    ```bash
@@ -119,16 +122,17 @@ To explore or run any of these projects locally:
    cd vanilla-js-projects
    ```
 
-3. **Open any project:**
-   Simply navigate into any project folder and open `index.html` in your web browser, or use VS Code's **Live Server** extension:
+3. **Open the central hub:**
+   Open the root `index.html` file in your browser to view and navigate between all projects:
    ```bash
-   # Example: Launch the Quiz Game
-   cd "Quiz Game"
-   # Open index.html in your default browser
-   xdg-open index.html   # On Linux
-   # or open index.html # On macOS
-   # or start index.html # On Windows
+   # On Linux
+   xdg-open index.html
+   # On macOS
+   open index.html
+   # On Windows
+   start index.html
    ```
+   Or use VS Code's **Live Server** extension on the repository root.
 
 ---
 
